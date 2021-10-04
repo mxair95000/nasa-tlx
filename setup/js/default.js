@@ -59,7 +59,7 @@ $(document).ready(function() {
 		pairs_length,
 		final_result = [],
 		demands = [
-			["md", "Mental demand"],
+			["md", "Mental demand 腦力負荷"],
 			["pd", "Physical demand"],
 			["td", "Temporal demand"],
 			["op", "Performance"],
@@ -239,9 +239,9 @@ $(document).ready(function() {
 
 		// start button for pairs
 		if ( $(".step_3").find("div").length ) {
-			$(".step_3 div").html("<button>Start</button>");
+			$(".step_3 div").html("<button>開始</button>");
 		} else {
-			$(".step_3").append("<div><button>Start</button></div>");
+			$(".step_3").append("<div><button>開始</button></div>");
 		}
 		// remove/reset "to go" counter
 		$(".step_3 .to_go").remove();
