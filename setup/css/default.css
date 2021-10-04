@@ -578,22 +578,22 @@ section {
 }
 
 .slider::before {
-	content: "Low";
+	content: "低";
 	margin-left: -6em;
 	text-align: right;
 }
 
 .slider::after {
-	content: "High";
+	content: "高";
 	margin-right: -6em;
 	right: 0;
 }
 
 .slider.performance::before {
-	content: "Excellent";
+	content: "表現較好";
 }
 
 .slider.performance::after {
-	content: "Poor";
+	content: "表現較差";
 }
 
