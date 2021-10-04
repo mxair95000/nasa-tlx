@@ -578,13 +578,13 @@ section {
 }
 
 .slider::before {
-	content: "低";
+	content: "非常低";
 	margin-left: -6em;
 	text-align: right;
 }
 
 .slider::after {
-	content: "高";
+	content: "非常高";
 	margin-right: -6em;
 	right: 0;
 }
