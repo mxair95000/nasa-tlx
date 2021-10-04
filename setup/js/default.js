@@ -59,12 +59,12 @@ $(document).ready(function() {
 		pairs_length,
 		final_result = [],
 		demands = [
-			["md", "Mental demand 腦力需求"],
-			["pd", "Physical demand 體力需求"],
-			["td", "Temporal demand 時間需求"],
-			["op", "Performance 績效表現"],
-			["ef", "Effort 付出努力"],
-			["fr", "Frustration 挫折感"]
+			["md", "腦力需求"],
+			["pd", "體力需求"],
+			["td", "時間需求"],
+			["op", "績效表現"],
+			["ef", "努力程度"],
+			["fr", "挫折感"]
 		],
 		tableoutput = "",
 		no_score = "–";
