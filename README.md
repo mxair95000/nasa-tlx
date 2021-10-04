@@ -1,4 +1,4 @@
-# NASA Task Load Index (NASA-TLX)/ZH-TW Version
+# NASA-TLX ZH-TW Version
 ========
 
 
