@@ -10,24 +10,24 @@
 	<body>
 		<article>
 			<header>
-				<h1>Task Load Index (TLX)</h1>
+				<h1>NASA-TLX 認知負荷測試繁體中文版</h1>
 			</header>
 			<section class="step_0">
-				<h2>Step 0: overview of TLX per proband per task</h2>
+				<h2>步驟 0: NASA-TLX 量表主題與任務概覽</h2>
 				<div id="container"></div>
-				<button>Continue to step 1</button>
+				<button> 前往步驟1 </button>
 			</section>
 			<section class="step_1">
-				<h2>Step 1: choose proband and task</h2>
+				<h2>Step 1: 選擇實驗主題與任務</h2>
 				<div class="cf">
 					<section class="first">
-						<h3>Proband</h3>
-						<h4><label for="create_proband">Create new proband</label></h4>
+						<h3>實驗主題</h3>
+						<h4><label for="create_proband">創造新的主題</label></h4>
 						<form>
 							<input type="text" id="create_proband" required>
 							<input type="submit" value="Create">
 						</form>
-						<h4>Choose proband</h4>
+						<h4>選擇實驗主題</h4>
 						<form class="list">
 							<div>
 								<div>
@@ -42,72 +42,72 @@
 						</form>
 					</section>
 					<section class="second">
-						<h3>Task</h3>
-						<h4><label for="create_task">Create new task</label></h4>
+						<h3>測試任務 Task</h3>
+						<h4><label for="create_task">創建新的測試任務</label></h4>
 						<form>
 							<input type="text" id="create_task" required>
 							<input type="submit" value="Create">
 						</form>
-						<h4>Choose task</h4>
+						<h4>選擇測試任務</h4>
 						<form class="list">
 							<div>
 								<div>
 									<input type="radio" name="tasks" id="flight_simulation" checked>
-									<label for="flight_simulation">Flight simulation</label>
+									<label for="flight_simulation">飛行模擬</label>
 								</div>
 								<div>
 									<input type="radio" name="tasks" id="drinking_beer">
-									<label for="drinking_beer">Drinking beer</label>
+									<label for="drinking_beer">喝啤酒</label>
 								</div>
 							</div>
 						</form>
 					</section>
 				</div>
-				<button>Continue to step 2</button>
-				<p class="go_back">or go <a href="#">back to the overview page</a></p>
+				<button>繼續前往步驟 2 </button>
+				<p class="go_back">或者 <a href="#">回到概覽頁</a></p>
 			</section>
 			<section class="step_2">
-				<h2>Step 2: rating scales</h2>
+				<h2>步驟 2: 為量表評分</h2>
 				<section>
-					<h3>Mental demand</h3>
-					<p>How mentally demanding was the task?</p>
+					<h3>腦力需求</h3>
+					<p>本次的遊戲需要多少的腦力才能完成?</p>
 					<div class="slider"></div>
 				</section>
 				<section>
-					<h3>Physical demand</h3>
-					<p>How physically demanding was the task?</p>
+					<h3>體力需求</h3>
+					<p>本次的遊戲需要多少的體力才能完成?</p>
 					<div class="slider"></div>
 				</section>
 				<section>
-					<h3>Temporal demand</h3>
-					<p>How hurried or rushed was the pace of the task?</p>
+					<h3>時間需求</h3>
+					<p>為了完成遊戲任務，你感覺要付出多少時間？</p>
 					<div class="slider"></div>
 				</section>
 				<section>
-					<h3>Performance</h3>
-					<p>How successful were you in accomplishing what you were asked to do?</p>
+					<h3>表現程度</h3>
+					<p>遊玩遊戲時，你覺得剛剛表現的有多成功？</p>
 					<div class="slider performance"></div>
 				</section>
 				<section>
-					<h3>Effort</h3>
-					<p>How hard did you have to work to accomplish your level of performance?</p>
+					<h3>努力程度</h3>
+					<p>遊玩遊戲時，你負需要花費多少努力才能達到要求？</p>
 					<div class="slider"></div>
 				</section>
 				<section>
-					<h3>Frustration</h3>
-					<p>How insecure, discouraged, irritated, stressed, and annoyed were you?</p>
+					<h3>挫折程度</h3>
+					<p>遊玩遊戲時，你感到任何的不安，氣餒，壓力或厭煩嗎？?</p>
 					<div class="slider"></div>
 				</section>
-				<button>Continue to step 3</button>
+				<button>繼續前往步驟 3</button>
 			</section>
 			<section class="step_3">
-				<h2>Step 3: pair-wise comparison of factors</h2>
-				<p class="alt">Select the member of each pair that provided the most significant source of workload:</p>
+				<h2>步驟 3: 心智負荷因素相互比較</h2>
+				<p class="alt">在兩兩成對的詞彙中，選擇對你比較重要的因素</p>
 			</section>
 			<section class="step_4">
-				<h2>Step 4: resulting data</h2>
+				<h2>Step 4: 結果資料</h2>
 				<div></div>
-				<button>Back to the overview page</button>
+				<button>回到總覽頁</button>
 			</section>
 		</article>
 		<script src="setup/js/jquery-1.8.3.min.js"></script>
